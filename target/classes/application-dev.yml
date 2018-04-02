@@ -1,0 +1,13 @@
+server:
+ context-path: /springBoot
+ tomcat:
+    uri-encoding: UTF-8
+ port: 8080
+   
+spring:
+  datasource:
+    url: jdbc:mysql://50.2.66.40:3306/bootdo
+    username: root
+    password: hysec123456
+    driver-class-name: com.mysql.jdbc.Driver
+
