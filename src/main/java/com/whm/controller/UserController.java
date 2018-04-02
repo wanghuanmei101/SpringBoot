@@ -22,9 +22,8 @@ public class UserController {
 		  for(int i=0;i<user.size();i++){
 			  System.out.println(user.get(i).getName() );
 		  }
-		 
 	      model.addAttribute("users", user);  //传递给Model,页面获取
-	        return "generator/list";
+	        return "list";
 	}
 	  public void setUs(UserService us) {
 		this.us = us;

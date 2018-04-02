@@ -3,8 +3,6 @@ spring:
     active:
       - dev
   thymeleaf:
-    prefix: classpath:/templates
-    mode: LEGACYHTML5
     cache: false
 mybatis:
   config-locations: classpath:mybatis-config.xml
